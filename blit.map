@@ -1,0 +1,149 @@
+ blit
+
+ Timestamp is 5c75a101 (Tue Feb 26 14:26:41 2019)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000bfeH .text                   CODE
+ 0002:00000000 0000009cH .idata$5                DATA
+ 0002:0000009c 0000003cH .idata$2                DATA
+ 0002:000000d8 00000014H .idata$3                DATA
+ 0002:000000ec 0000009cH .idata$4                DATA
+ 0002:00000188 00000256H .idata$6                DATA
+ 0002:000003de 00000000H .edata                  DATA
+ 0003:00000000 00000dcdH .data                   DATA
+ 0003:00000dd0 00000014H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _DrawPixel@12              00401000 f   blit.obj
+ 0001:00000041       _BasicBlit@12              00401041 f   blit.obj
+ 0001:000000e8       _RotateBlit@16             004010e8 f   blit.obj
+ 0001:00000260       _FixedSin@4                00401260 f   trig.obj
+ 0001:000002eb       _FixedCos@4                004012eb f   trig.obj
+ 0001:00000310       _DrawLine@20               00401310 f   lines.obj
+ 0001:00000420       _DrawStarField@0           00401420 f   stars.obj
+ 0001:000004f0       _start                     004014f0 f   libblit.obj
+ 0001:00000521       _WinMain@16                00401521 f   libblit.obj
+ 0001:00000638       _WndProc@16                00401638 f   libblit.obj
+ 0001:000009cd       _TopXY@8                   004019cd f   libblit.obj
+ 0001:000009e3       _BlackStarField@0          004019e3 f   libblit.obj
+ 0001:000009fc       _DrawStar@8                004019fc f   libblit.obj
+ 0001:00000a4f       _DrawDot@12                00401a4f f   libblit.obj
+ 0001:00000a8e       _DrawWaves@0               00401a8e f   libblit.obj
+ 0001:00000b0c       _MyStrNLen@8               00401b0c f   libblit.obj
+ 0001:00000b26       _BeginPaint@8              00401b26 f   user32:user32.dll
+ 0001:00000b2c       _CreateWindowExA@48        00401b2c f   user32:user32.dll
+ 0001:00000b32       _DefWindowProcA@16         00401b32 f   user32:user32.dll
+ 0001:00000b38       _DispatchMessageA@4        00401b38 f   user32:user32.dll
+ 0001:00000b3e       _DrawTextA@20              00401b3e f   user32:user32.dll
+ 0001:00000b44       _EndPaint@8                00401b44 f   user32:user32.dll
+ 0001:00000b4a       _GetClientRect@8           00401b4a f   user32:user32.dll
+ 0001:00000b50       _GetDC@4                   00401b50 f   user32:user32.dll
+ 0001:00000b56       _GetMessageA@16            00401b56 f   user32:user32.dll
+ 0001:00000b5c       _GetSystemMetrics@4        00401b5c f   user32:user32.dll
+ 0001:00000b62       _InvalidateRgn@12          00401b62 f   user32:user32.dll
+ 0001:00000b68       _LoadCursorA@8             00401b68 f   user32:user32.dll
+ 0001:00000b6e       _LoadIconA@8               00401b6e f   user32:user32.dll
+ 0001:00000b74       _PostMessageA@16           00401b74 f   user32:user32.dll
+ 0001:00000b7a       _PostQuitMessage@4         00401b7a f   user32:user32.dll
+ 0001:00000b80       _RegisterClassExA@4        00401b80 f   user32:user32.dll
+ 0001:00000b86       _ReleaseDC@8               00401b86 f   user32:user32.dll
+ 0001:00000b8c       _SetTimer@16               00401b8c f   user32:user32.dll
+ 0001:00000b92       _ShowWindow@8              00401b92 f   user32:user32.dll
+ 0001:00000b98       _TranslateMessage@4        00401b98 f   user32:user32.dll
+ 0001:00000b9e       _UpdateWindow@4            00401b9e f   user32:user32.dll
+ 0001:00000ba4       _wsprintfA                 00401ba4 f   user32:user32.dll
+ 0001:00000baa       _ExitProcess@4             00401baa f   kernel32:kernel32.dll
+ 0001:00000bb0       _GetCommandLineA@0         00401bb0 f   kernel32:kernel32.dll
+ 0001:00000bb6       _GetModuleHandleA@4        00401bb6 f   kernel32:kernel32.dll
+ 0001:00000bbc       _RtlMoveMemory@12          00401bbc f   kernel32:kernel32.dll
+ 0001:00000bc2       _RtlZeroMemory@8           00401bc2 f   kernel32:kernel32.dll
+ 0001:00000bc8       _BitBlt@36                 00401bc8 f   gdi32:gdi32.dll
+ 0001:00000bce       _CreateBrushIndirect@4     00401bce f   gdi32:gdi32.dll
+ 0001:00000bd4       _CreateCompatibleDC@4      00401bd4 f   gdi32:gdi32.dll
+ 0001:00000bda       _CreateDIBSection@24       00401bda f   gdi32:gdi32.dll
+ 0001:00000be0       _CreatePen@12              00401be0 f   gdi32:gdi32.dll
+ 0001:00000be6       _GdiFlush@0                00401be6 f   gdi32:gdi32.dll
+ 0001:00000bec       _SelectObject@8            00401bec f   gdi32:gdi32.dll
+ 0001:00000bf2       _SetBkColor@8              00401bf2 f   gdi32:gdi32.dll
+ 0001:00000bf8       _SetTextColor@8            00401bf8 f   gdi32:gdi32.dll
+ 0002:00000000       __imp__SetBkColor@8        00402000     gdi32:gdi32.dll
+ 0002:00000004       __imp__SelectObject@8      00402004     gdi32:gdi32.dll
+ 0002:00000008       __imp__GdiFlush@0          00402008     gdi32:gdi32.dll
+ 0002:0000000c       __imp__CreatePen@12        0040200c     gdi32:gdi32.dll
+ 0002:00000010       __imp__CreateDIBSection@24 00402010     gdi32:gdi32.dll
+ 0002:00000014       __imp__CreateCompatibleDC@4 00402014     gdi32:gdi32.dll
+ 0002:00000018       __imp__CreateBrushIndirect@4 00402018     gdi32:gdi32.dll
+ 0002:0000001c       __imp__BitBlt@36           0040201c     gdi32:gdi32.dll
+ 0002:00000020       __imp__SetTextColor@8      00402020     gdi32:gdi32.dll
+ 0002:00000024       \177gdi32_NULL_THUNK_DATA  00402024     gdi32:gdi32.dll
+ 0002:00000028       __imp__GetCommandLineA@0   00402028     kernel32:kernel32.dll
+ 0002:0000002c       __imp__RtlZeroMemory@8     0040202c     kernel32:kernel32.dll
+ 0002:00000030       __imp__RtlMoveMemory@12    00402030     kernel32:kernel32.dll
+ 0002:00000034       __imp__GetModuleHandleA@4  00402034     kernel32:kernel32.dll
+ 0002:00000038       __imp__ExitProcess@4       00402038     kernel32:kernel32.dll
+ 0002:0000003c       \177kernel32_NULL_THUNK_DATA 0040203c     kernel32:kernel32.dll
+ 0002:00000040       __imp__ReleaseDC@8         00402040     user32:user32.dll
+ 0002:00000044       __imp__SetTimer@16         00402044     user32:user32.dll
+ 0002:00000048       __imp__ShowWindow@8        00402048     user32:user32.dll
+ 0002:0000004c       __imp__RegisterClassExA@4  0040204c     user32:user32.dll
+ 0002:00000050       __imp__UpdateWindow@4      00402050     user32:user32.dll
+ 0002:00000054       __imp__wsprintfA           00402054     user32:user32.dll
+ 0002:00000058       __imp__PostQuitMessage@4   00402058     user32:user32.dll
+ 0002:0000005c       __imp__InvalidateRgn@12    0040205c     user32:user32.dll
+ 0002:00000060       __imp__PostMessageA@16     00402060     user32:user32.dll
+ 0002:00000064       __imp__LoadIconA@8         00402064     user32:user32.dll
+ 0002:00000068       __imp__LoadCursorA@8       00402068     user32:user32.dll
+ 0002:0000006c       __imp__GetSystemMetrics@4  0040206c     user32:user32.dll
+ 0002:00000070       __imp__GetMessageA@16      00402070     user32:user32.dll
+ 0002:00000074       __imp__GetDC@4             00402074     user32:user32.dll
+ 0002:00000078       __imp__GetClientRect@8     00402078     user32:user32.dll
+ 0002:0000007c       __imp__EndPaint@8          0040207c     user32:user32.dll
+ 0002:00000080       __imp__DrawTextA@20        00402080     user32:user32.dll
+ 0002:00000084       __imp__DispatchMessageA@4  00402084     user32:user32.dll
+ 0002:00000088       __imp__DefWindowProcA@16   00402088     user32:user32.dll
+ 0002:0000008c       __imp__CreateWindowExA@48  0040208c     user32:user32.dll
+ 0002:00000090       __imp__TranslateMessage@4  00402090     user32:user32.dll
+ 0002:00000094       __imp__BeginPaint@8        00402094     user32:user32.dll
+ 0002:00000098       \177user32_NULL_THUNK_DATA 00402098     user32:user32.dll
+ 0002:0000009c       __IMPORT_DESCRIPTOR_user32 0040209c     user32:user32.dll
+ 0002:000000b0       __IMPORT_DESCRIPTOR_kernel32 004020b0     kernel32:kernel32.dll
+ 0002:000000c4       __IMPORT_DESCRIPTOR_gdi32  004020c4     gdi32:gdi32.dll
+ 0002:000000d8       __NULL_IMPORT_DESCRIPTOR   004020d8     user32:user32.dll
+ 0003:0000083d       _SINTAB                    0040383d     libblit.obj
+ 0003:00000de0       _ScreenBitsPtr             00403de0     libblit.obj
+
+ entry point at        0001:000004f0
+
+ Static symbols
+
+ 0001:00000326       A                          00401326 f   lines.obj
+ 0001:00000336       B                          00401336 f   lines.obj
+ 0001:0000034a       cc                         0040134a f   lines.obj
+ 0001:00000351       W                          00401351 f   lines.obj
+ 0001:00000362       D                          00401362 f   lines.obj
+ 0001:00000369       X                          00401369 f   lines.obj
+ 0001:00000382       E                          00401382 f   lines.obj
+ 0001:00000396       R                          00401396 f   lines.obj
+ 0001:000003b0       F                          004013b0 f   lines.obj
+ 0001:000003f0       G                          004013f0 f   lines.obj
+ 0001:0000040a       H                          0040140a f   lines.obj
+ 0001:0000040c       I                          0040140c f   lines.obj
+ 0001:0000028e       Z                          0040128e f   trig.obj
+ 0001:00000295       N                          00401295 f   trig.obj
+ 0001:000002a1       q4                         004012a1 f   trig.obj
+ 0001:000002af       q3                         004012af f   trig.obj
+ 0001:000002c1       q2                         004012c1 f   trig.obj
+ 0001:000002d1       q1                         004012d1 f   trig.obj
+ 0001:000002e4       q0                         004012e4 f   trig.obj
+ 0001:0000003b       fin                        0040103b f   blit.obj
+ 0001:0000008a       fillRow                    0040108a f   blit.obj
+ 0001:000000b8       increment                  004010b8 f   blit.obj
+ 0001:000000c3       nextRow                    004010c3 f   blit.obj
+ 0001:000000e0       fin                        004010e0 f   blit.obj
+ 0001:0000015e       for_y                      0040115e f   blit.obj
+ 0001:0000022e       loop_y_inc                 0040122e f   blit.obj
+ 0001:00000231       loop_y_check               00401231 f   blit.obj
+ 0001:00000240       loop_x_check               00401240 f   blit.obj
