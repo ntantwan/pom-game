@@ -1,4 +1,4 @@
 # pom-game
 A short arcade game about a Pomeranian written entirely in assembly. 
 
-To run, download and run game.exe. Computer must be able to run 32-bit windows applications. 
+To run, download the file <i>game.exe</i>. Your computer must be able to run 32-bit applications. 
